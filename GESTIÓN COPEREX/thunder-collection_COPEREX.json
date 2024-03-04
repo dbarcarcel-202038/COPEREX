@@ -1,0 +1,258 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "COPEREX",
+    "dateExported": "2024-03-04T00:10:28.278Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "5b8c7d01-43fd-40fa-b825-27faef1f31d1",
+            "name": "user",
+            "containerId": "",
+            "created": "2024-03-03T23:32:57.787Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "60f155c6-2cc8-4ba6-870a-26e9a0c3d7cd",
+            "name": "category",
+            "containerId": "",
+            "created": "2024-03-03T23:32:57.788Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "1ad27062-26b5-4ca8-8b99-e8abd601debf",
+            "name": "company",
+            "containerId": "",
+            "created": "2024-03-03T23:32:57.789Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "6c875353-3886-4515-8cd2-7b46908a4622",
+            "colId": "1a03f76b-f5fb-47e5-91e7-b995e6953de1",
+            "containerId": "5b8c7d01-43fd-40fa-b825-27faef1f31d1",
+            "name": "sign",
+            "url": "user/add",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-03T23:32:57.787Z",
+            "modified": "2024-03-03T23:36:33.458Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "David"
+                    },
+                    {
+                        "name": "username",
+                        "value": "Dako"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "email",
+                        "value": "Dako@gmail.com"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "8265d033-527a-4e50-8512-b9e985dff915",
+            "colId": "1a03f76b-f5fb-47e5-91e7-b995e6953de1",
+            "containerId": "5b8c7d01-43fd-40fa-b825-27faef1f31d1",
+            "name": "login",
+            "url": "user/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-03T23:32:57.788Z",
+            "modified": "2024-03-03T23:37:17.593Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "user",
+                        "value": "Dako"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "839ed002-28bf-40d1-b20b-8137b212b6a4",
+            "colId": "1a03f76b-f5fb-47e5-91e7-b995e6953de1",
+            "containerId": "60f155c6-2cc8-4ba6-870a-26e9a0c3d7cd",
+            "name": "add",
+            "url": "category/add",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-03-03T23:32:57.789Z",
+            "modified": "2024-03-04T00:05:42.538Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Fragance"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Fragance for a lot of people"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "6b264d61-6eab-4967-9841-95ef1d2342e3",
+            "colId": "1a03f76b-f5fb-47e5-91e7-b995e6953de1",
+            "containerId": "1ad27062-26b5-4ca8-8b99-e8abd601debf",
+            "name": "add",
+            "url": "company/add",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-03-03T23:32:57.790Z",
+            "modified": "2024-03-04T00:06:53.641Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Dior"
+                    },
+                    {
+                        "name": "impact",
+                        "value": "HIGH"
+                    },
+                    {
+                        "name": "yearExp",
+                        "value": "5"
+                    },
+                    {
+                        "name": "category",
+                        "value": "65e51057fa55351ed9f03ffe"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "1bc29dd9-f39a-43ba-825a-b25d7e1b6e99",
+            "colId": "1a03f76b-f5fb-47e5-91e7-b995e6953de1",
+            "containerId": "1ad27062-26b5-4ca8-8b99-e8abd601debf",
+            "name": "update",
+            "url": "company/update/65e5109dfa55351ed9f04001",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-03-03T23:32:57.791Z",
+            "modified": "2024-03-04T00:07:21.670Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "impact",
+                        "value": "HIGH"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "122ea43e-6f4e-4533-8116-ff72af258bbe",
+            "colId": "1a03f76b-f5fb-47e5-91e7-b995e6953de1",
+            "containerId": "1ad27062-26b5-4ca8-8b99-e8abd601debf",
+            "name": "AZ",
+            "url": "company/filterAZ",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-03-03T23:32:57.792Z",
+            "modified": "2024-03-03T23:32:57.792Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "31121ab4-a345-4774-a125-98b3b06fa864",
+            "colId": "1a03f76b-f5fb-47e5-91e7-b995e6953de1",
+            "containerId": "1ad27062-26b5-4ca8-8b99-e8abd601debf",
+            "name": "ZA",
+            "url": "company/filterZA",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-03-03T23:32:57.793Z",
+            "modified": "2024-03-03T23:32:57.793Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "900fa0e2-e02b-4dea-b6e3-527d557c92bf",
+            "colId": "1a03f76b-f5fb-47e5-91e7-b995e6953de1",
+            "containerId": "1ad27062-26b5-4ca8-8b99-e8abd601debf",
+            "name": "Year",
+            "url": "company/filterYear",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-03-03T23:32:57.794Z",
+            "modified": "2024-03-03T23:32:57.794Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8b47c4d5-69bb-43a7-8b93-b138edbb2dd9",
+            "colId": "1a03f76b-f5fb-47e5-91e7-b995e6953de1",
+            "containerId": "1ad27062-26b5-4ca8-8b99-e8abd601debf",
+            "name": "Impact",
+            "url": "company/filterImpact",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-03-03T23:32:57.795Z",
+            "modified": "2024-03-03T23:32:57.795Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fac2e123-ae14-4cd5-9695-0406833942e1",
+            "colId": "1a03f76b-f5fb-47e5-91e7-b995e6953de1",
+            "containerId": "1ad27062-26b5-4ca8-8b99-e8abd601debf",
+            "name": "Generator",
+            "url": "company/generateExcel",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-03-03T23:32:57.796Z",
+            "modified": "2024-03-03T23:32:57.796Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2020/"
+        }
+    }
+}
